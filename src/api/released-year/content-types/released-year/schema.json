@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "released_years",
+  "info": {
+    "singularName": "released-year",
+    "pluralName": "released-years",
+    "displayName": "Released Year"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "releasedYear": {
+      "type": "string"
+    }
+  }
+}
