@@ -6,11 +6,11 @@ module.exports = ({ env }) => {
   const connections = {
     mysql: {
       connection: {
-        host: env('DATABASE_HOST', '127.0.0.1'),
+        host: env('DATABASE_HOST', 'mysql1.panacea-soft.co'),
         port: env.int('DATABASE_PORT', 3306),
-        database: env('DATABASE_NAME', 'strapi_ai'),
-        user: env('DATABASE_USERNAME', 'root'),
-        password: env('DATABASE_PASSWORD', 'root'),
+        database: env('DATABASE_NAME', 'news4mm'),
+        user: env('DATABASE_USERNAME', 'psmysql1'),
+        password: env('DATABASE_PASSWORD', 'psuser@2017'),
         ssl: env.bool('DATABASE_SSL', false) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
